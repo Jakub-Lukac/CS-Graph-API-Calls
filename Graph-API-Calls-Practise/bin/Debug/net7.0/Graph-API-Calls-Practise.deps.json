@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Graph-API-Calls-Practise/1.0.0": {
+        "runtime": {
+          "Graph-API-Calls-Practise.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Graph-API-Calls-Practise/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

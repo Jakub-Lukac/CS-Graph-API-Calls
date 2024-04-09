@@ -1,0 +1,15 @@
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\bin\Debug\net7.0\Graph-API-Calls-Practise.exe
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\bin\Debug\net7.0\Graph-API-Calls-Practise.deps.json
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\bin\Debug\net7.0\Graph-API-Calls-Practise.runtimeconfig.json
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\bin\Debug\net7.0\Graph-API-Calls-Practise.dll
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\bin\Debug\net7.0\Graph-API-Calls-Practise.pdb
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.AssemblyInfoInputs.cache
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.AssemblyInfo.cs
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.csproj.CoreCompileInputs.cache
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.sourcelink.json
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.dll
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\refint\Graph-API-Calls-Practise.dll
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.pdb
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\Graph-API-Calls-Practise.genruntimeconfig.cache
+C:\Users\Jakub\MyDocuments\GitHubDesktopProjects\Graph-API-Calls\Graph-API-Calls-Practise\obj\Debug\net7.0\ref\Graph-API-Calls-Practise.dll
