@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +22,25 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GraphClient.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
               "RelativeDocumentMoniker": "GraphClient.cs",
               "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
               "RelativeToolTip": "GraphClient.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:47:17.42Z",
               "EditorCaption": ""
@@ -49,20 +53,20 @@
               "RelativeDocumentMoniker": "Credentials.cs",
               "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Credentials.cs",
               "RelativeToolTip": "Credentials.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:46:13.472Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAUAAAAaAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-09T10:45:22.779Z",
               "EditorCaption": ""
