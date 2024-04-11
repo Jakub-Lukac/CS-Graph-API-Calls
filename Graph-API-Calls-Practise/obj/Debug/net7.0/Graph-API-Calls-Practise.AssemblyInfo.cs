@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Graph-API-Calls-Practise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b99f6ea744a41cce1a0e2528bc9a69837a0d81eb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d1f1b56943dbee2ef1f396c2a9c5ec94ab4b19f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("Graph-API-Calls-Practise")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Graph-API-Calls-Practise")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
