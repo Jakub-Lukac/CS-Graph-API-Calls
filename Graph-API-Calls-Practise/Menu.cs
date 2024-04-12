@@ -17,7 +17,7 @@ namespace Graph_API_Calls_Practise
         public Menu()
         {
             _defaultMenu = new List<string>() { "REST API Requests Menu", "GET", "POST", "PUT", "DELETE", "EXIT" };
-            _getMenu = new List<string>() {"GET Request Menu", "Get user", "Get guest users", "Get group" };
+            _getMenu = new List<string>() {"GET Request Menu", "Get user", "Get guest users", "Get group" , "Get group members"};
             _postMenu = new List<string>() { "POST Request Menu", "Send mail", "Add member to a group" };
             _patchMenu = new List<string>() { "PATCH Request Menu" ,"Update user"};
             _deleteMenu = new List<string>() { "DELETE Request Menu", "Delete user" , "Remove member from group" };

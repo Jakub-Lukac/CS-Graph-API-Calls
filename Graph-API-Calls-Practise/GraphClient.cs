@@ -101,6 +101,77 @@ namespace Graph_API_Calls_Practise
             }
         }
 
+        public async Task<List<DirectoryObject>> GetGroupMembersAsync(string groupId)
+        {
+            List<DirectoryObject> users = new List<DirectoryObject>();
+            try
+            {
+                var usersResult = await _graphServiceClient.Groups[groupId].Members.GetAsync((requestConfiguration) =>
+                {
+                    // will fetch at most 999 records (members)
+                    requestConfiguration.QueryParameters.Top = 999;
+                    // specifies which parameters to include in the response
+                    requestConfiguration.QueryParameters.Select = new string[] { "id", "displayName" };
+                });
+
+                users = users.Union(usersResult.Value.Where(w => w.GetType() == typeof(User) || w.GetType() == typeof(Group)).OrderBy(o => o.Id).ToList()).ToList();
+                // w.getType checks the @odota.type field, to only include objects of type User or Group
+                // orderBy uses Id as parameter for ordering the objects
+                // first toList converts sorted collection to a list
+                // union for combining the filtered (sorted) list with the existing users collection
+                // Union creates new collection which includes elements from both collections
+                // second toList converts combined collection to a list
+                // Union is used bcs it only includes unique values, so no duplicates
+
+                // retrieves next page of the usersResult object
+                var nextPageLink = usersResult.OdataNextLink;
+
+                // while loop will be executed as long as there is some next page
+                while (nextPageLink != null)
+                {
+                    var nextPageRequestInformation = new RequestInformation
+                    {
+                        HttpMethod = Method.GET,
+                        UrlTemplate = nextPageLink,
+                    };
+
+                    // this is actual variable for storing the next page results (data) 
+                    // nextPageResult will store collection of objects (response), each element is parsed into a DirectoryObjectCollectionResponse
+                    var nextPageResult = await _graphServiceClient.RequestAdapter.SendAsync(nextPageRequestInformation, (parseNode) => new DirectoryObjectCollectionResponse());
+                    // we use Union again but this time on nextPageResult
+                    users = users.Union(nextPageResult.Value.Where(w => w.GetType() == typeof(User) || w.GetType() == typeof(Group)).OrderBy(o => o.Id).ToList()).ToList();
+                    nextPageLink = nextPageResult.OdataNextLink;
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error group members: {ex.Message}"); ;
+                throw;
+            }
+
+            return users;
+        }
+
+        public void DisplayGroupMembers(List<DirectoryObject> users)
+        {
+            // directory object on default exposes the id, as it can be used for various collections
+            // thats why on default in does not know what displayName is
+            // as a result we need to convert object in collection to either User or Group instance to access its properties
+            foreach (var user in users) 
+            {
+                if (user is User)
+                {
+                    User userObject = (User)user;
+                    Console.WriteLine($"User Id: {userObject.Id}, Display Name: {userObject.DisplayName}");
+                }
+                else if (user is Group)
+                {
+                    Group groupObject = (Group)user;
+                    Console.WriteLine($"Group Id: {groupObject.Id}, Display Name: {groupObject.DisplayName}");
+                }
+            }
+        }
+
         // POST
         public async Task SendMailAsync(string senderId, string recipientEmail)
         {

@@ -37,6 +37,10 @@ namespace Graph_API_Calls_Practise
                                 var group = await graphClient.GetGroupAsync(inputHandler.InputGroupId());
                                 await Console.Out.WriteLineAsync(group.DisplayName);
                                 break;
+                            case 4:
+                                var groupMembers = await graphClient.GetGroupMembersAsync(inputHandler.InputGroupId());
+                                graphClient.DisplayGroupMembers(groupMembers);
+                                break;
                         }
                         break;
                     // POST
