@@ -38,11 +38,54 @@ namespace Graph_API_Calls_Practise
             return new GraphServiceClient(clientSecretCredentials, scopes);
         }
 
-        public async Task<User> GetUserAsync(string userId)
+        public async Task<DirectoryRoleTemplateCollectionResponse> GetUserAsync(/*string userId*/)
         {
             try
             {
-                var result =  await _graphServiceClient.Users[userId].GetAsync();
+                //var result =  await _graphServiceClient.Users[userId].GetAsync();
+                /* var result = await _graphServiceClient.Users[userId].GetAsync((requestConfiguration) => {
+                     requestConfiguration.QueryParameters.Select = new string[] { "id", "displayName", "appRoleAssignments", "department", "memberof", "usertype" };
+                 });*/
+                //var result = await _graphServiceClient.Users[userId].MemberOf.GetAsync();
+                //var result = await _graphServiceClient.DirectoryRoles["{directoryRole-id}"].Members.GetAsync();
+
+
+
+                // https://graph.microsoft.com/v1.0/directoryRoles?$select=id,displayName&$filter=displayName in ('Exchange Administrator', 'Global Administrator')
+                /*var result = await graphClient.DirectoryRoles.GetAsync((requestConfiguration) =>
+                {
+                    requestConfiguration.QueryParameters.Select = new string[] { "id", "displayName" };
+                    requestConfiguration.QueryParameters.Filter = "displayName in ('Exchange Administrator', 'Global Administrator')";
+                    requestConfiguration.Headers.Add("ConsistencyLevel", "eventual");
+                });*/
+
+
+
+                // To access members immediately
+                /*var result = await graphClient.DirectoryRoles.GetAsync((requestConfiguration) =>
+                {
+                    requestConfiguration.QueryParameters.Expand = new string[] { "members" };
+                });*/
+
+                var result = await _graphServiceClient.DirectoryRoleTemplates.GetAsync();
+
+                await Console.Out.WriteLineAsync("User successfully retrieved.");
+                return result;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error user: {ex.Message}");
+                throw;
+            }
+        }
+
+        public async Task<UserCollectionResponse> GetUsersAsync()
+        {
+            try
+            {
+                var result = await _graphServiceClient.Users.GetAsync((requestConfiguration) => {
+                    requestConfiguration.QueryParameters.Select = new string[] { "id", "displayName", "approleassignments", "department", "memberof", "usertype" };
+                });
                 await Console.Out.WriteLineAsync("User successfully retrieved.");
                 return result;
             }
@@ -112,6 +155,7 @@ namespace Graph_API_Calls_Practise
                     requestConfiguration.QueryParameters.Top = 999;
                     // specifies which parameters to include in the response
                     requestConfiguration.QueryParameters.Select = new string[] { "id", "displayName" };
+                    
                 });
 
                 users = users.Union(usersResult.Value.Where(w => w.GetType() == typeof(User) || w.GetType() == typeof(Group)).OrderBy(o => o.Id).ToList()).ToList();

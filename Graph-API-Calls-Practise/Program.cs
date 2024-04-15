@@ -26,8 +26,8 @@ namespace Graph_API_Calls_Practise
                         switch (apiMenuOptionChosen)
                         {
                             case 1:
-                                var user = await graphClient.GetUserAsync(inputHandler.InputUserId());
-                                await Console.Out.WriteLineAsync(user.DisplayName);
+                                var user = await graphClient.GetUserAsync(/*inputHandler.InputUserId()*/);
+                                //await Console.Out.WriteLineAsync(user.DisplayName);
                                 break;
                             case 2:
                                 var guestUsers = await graphClient.GetGuestUsersAsync();
