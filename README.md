@@ -1,7 +1,7 @@
 # Graph API Console Application
 
 ## Project Overview
-Menu-driven C# console application for making REST API requests using Graph API.  Creation of Graph Client using Azure.Identity package and making the GET, POST, PATCH/PUT, DELETE Requests.
+Menu-driven C# console application for making REST API requests using Graph API.  Creation of Graph Client using Azure.Identity package and making the GET, POST, PATCH/PUT, and DELETE Requests.
 
 ## GET Requests
 * GetUser
