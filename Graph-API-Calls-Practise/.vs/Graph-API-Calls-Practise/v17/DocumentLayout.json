@@ -3,20 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:inputhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:credentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-api-calls-practise\\graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0EDD785-B676-4946-8746-732B79033906}|Graph-API-Calls-Practise.csproj|solutionrelative:graphclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A87889FA-437D-471D-916B-AD61D9B0140E}|..\\Graph-Beta\\Graph-Beta.csproj|c:\\users\\jakub\\mydocuments\\githubdesktopprojects\\graph-api-calls\\graph-beta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,60 +25,66 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Menu.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Menu.cs",
-              "RelativeDocumentMoniker": "Menu.cs",
-              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Menu.cs",
-              "RelativeToolTip": "Menu.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBMAAAB+AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:52:48.979Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GraphClient.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
-              "RelativeDocumentMoniker": "GraphClient.cs",
-              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
-              "RelativeToolTip": "GraphClient.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwDwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:47:17.42Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "InputHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\InputHandler.cs",
-              "RelativeDocumentMoniker": "InputHandler.cs",
-              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\InputHandler.cs",
-              "RelativeToolTip": "InputHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-11T13:40:08.23Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAWwBwAAAAgAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAQwFMAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-09T10:45:22.779Z",
+              "WhenOpened": "2024-06-14T11:38:57.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GraphClient.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
+              "RelativeDocumentMoniker": "GraphClient.cs",
+              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\GraphClient.cs",
+              "RelativeToolTip": "GraphClient.cs",
+              "ViewState": "AQIAAC4BAAAAAAAAAAAmwEABAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T11:31:03.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Credentials.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Credentials.cs",
+              "RelativeDocumentMoniker": "Credentials.cs",
+              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-API-Calls-Practise\\Credentials.cs",
+              "RelativeToolTip": "Credentials.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-14T11:31:00.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-Beta\\Program.cs",
+              "RelativeDocumentMoniker": "..\\Graph-Beta\\Program.cs",
+              "ToolTip": "C:\\Users\\Jakub\\MyDocuments\\GitHubDesktopProjects\\Graph-API-Calls\\Graph-Beta\\Program.cs",
+              "RelativeToolTip": "..\\Graph-Beta\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAwwAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T14:30:21.858Z",
               "EditorCaption": ""
             }
           ]

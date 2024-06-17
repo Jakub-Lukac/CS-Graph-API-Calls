@@ -9,7 +9,8 @@
       "Graph-API-Calls-Practise/1.0.0": {
         "dependencies": {
           "Azure.Identity": "1.10.4",
-          "Microsoft.Graph": "5.47.0"
+          "Microsoft.Graph": "5.47.0",
+          "Microsoft.Graph.Beta": "5.71.0-preview"
         },
         "runtime": {
           "Graph-API-Calls-Practise.dll": {}
@@ -65,6 +66,17 @@
           "lib/net5.0/Microsoft.Graph.dll": {
             "assemblyVersion": "5.47.0.0",
             "fileVersion": "5.47.0.0"
+          }
+        }
+      },
+      "Microsoft.Graph.Beta/5.71.0-preview": {
+        "dependencies": {
+          "Microsoft.Graph.Core": "3.1.10"
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Graph.Beta.dll": {
+            "assemblyVersion": "5.71.0.0",
+            "fileVersion": "5.71.0.0"
           }
         }
       },
@@ -374,6 +386,13 @@
       "sha512": "sha512-VHoORH/5OqSEsOvvkyzjjYJfBFpcYOKpfoj7Bpa10FVuEBHYY5VwoIki4eqkJ4lBjFHzkNw29H4U9Y0vvybbNQ==",
       "path": "microsoft.graph/5.47.0",
       "hashPath": "microsoft.graph.5.47.0.nupkg.sha512"
+    },
+    "Microsoft.Graph.Beta/5.71.0-preview": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kFLPRYb8wub38p9Kud1ztmhL9BQUq5MFVAPKCd7pjOLUfshDG1QSKB7y3AXSBckm6V1oeqjYFj1JkYs5Oyy8dg==",
+      "path": "microsoft.graph.beta/5.71.0-preview",
+      "hashPath": "microsoft.graph.beta.5.71.0-preview.nupkg.sha512"
     },
     "Microsoft.Graph.Core/3.1.10": {
       "type": "package",

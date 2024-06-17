@@ -73,6 +73,22 @@
           }
         }
       },
+      "Microsoft.Graph.Beta/5.71.0-preview": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Graph.Core": "3.1.10"
+        },
+        "compile": {
+          "lib/net5.0/Microsoft.Graph.Beta.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Microsoft.Graph.Beta.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Graph.Core/3.1.10": {
         "type": "package",
         "dependencies": {
@@ -672,6 +688,25 @@
         "lib/netstandard2.1/Microsoft.Graph.xml",
         "microsoft.graph.5.47.0.nupkg.sha512",
         "microsoft.graph.nuspec"
+      ]
+    },
+    "Microsoft.Graph.Beta/5.71.0-preview": {
+      "sha512": "kFLPRYb8wub38p9Kud1ztmhL9BQUq5MFVAPKCd7pjOLUfshDG1QSKB7y3AXSBckm6V1oeqjYFj1JkYs5Oyy8dg==",
+      "type": "package",
+      "path": "microsoft.graph.beta/5.71.0-preview",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "README.md",
+        "lib/net5.0/Microsoft.Graph.Beta.dll",
+        "lib/net5.0/Microsoft.Graph.Beta.xml",
+        "lib/netstandard2.0/Microsoft.Graph.Beta.dll",
+        "lib/netstandard2.0/Microsoft.Graph.Beta.xml",
+        "lib/netstandard2.1/Microsoft.Graph.Beta.dll",
+        "lib/netstandard2.1/Microsoft.Graph.Beta.xml",
+        "microsoft.graph.beta.5.71.0-preview.nupkg.sha512",
+        "microsoft.graph.beta.nuspec"
       ]
     },
     "Microsoft.Graph.Core/3.1.10": {
@@ -1548,7 +1583,8 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "Azure.Identity >= 1.10.4",
-      "Microsoft.Graph >= 5.47.0"
+      "Microsoft.Graph >= 5.47.0",
+      "Microsoft.Graph.Beta >= 5.71.0-preview"
     ]
   },
   "packageFolders": {
@@ -1608,6 +1644,10 @@
           "Microsoft.Graph": {
             "target": "Package",
             "version": "[5.47.0, )"
+          },
+          "Microsoft.Graph.Beta": {
+            "target": "Package",
+            "version": "[5.71.0-preview, )"
           }
         },
         "imports": [
@@ -1629,5 +1669,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Azure.Identity' 1.10.4 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-wvxc-855f-jvrv",
+      "libraryId": "Azure.Identity",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

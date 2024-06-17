@@ -57,6 +57,10 @@
             "Microsoft.Graph": {
               "target": "Package",
               "version": "[5.47.0, )"
+            },
+            "Microsoft.Graph.Beta": {
+              "target": "Package",
+              "version": "[5.71.0-preview, )"
             }
           },
           "imports": [
